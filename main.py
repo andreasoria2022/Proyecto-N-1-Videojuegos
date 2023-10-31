@@ -14,12 +14,12 @@ def index():
 
 #Datos a usar
 
-df_play =pd.read_csv('datafastapi/playTimeGenre.csv')
-df_forgenre = pd.read_csv('datafastapi/UserForGenre.csv')
-df_UserRecommend =pd.read_csv('datafastapi/UsersRecommend.csv')
-df_UserNotRecommend= pd.read_csv('datafastapi/UsersNotRecommend.csv')
-df_sentiment= pd.read_csv('datafastapi/sentiment_analysis.csv')
-df_recommend = pd.read_csv('datafastapi/sistemarecomendacion.csv')
+df_play =pd.read_csv('data fastapi/playTimeGenre.csv')
+df_forgenre = pd.read_csv('data fastapi/UserForGenre.csv')
+df_UserRecommend =pd.read_csv('data fastapi/UsersRecommend.csv')
+df_UserNotRecommend= pd.read_csv('data fastapi/UsersNotRecommend.csv')
+df_sentiment= pd.read_csv('data fastapi/sentiment_analysis.csv')
+df_recommend = pd.read_csv('data fastapi/sistemarecomendacion.csv')
 
 #Endpoint 1: El usuario con mas horas jugadas para el genero y una lista de la acumulación de horas jugadas por año
 
